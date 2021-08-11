@@ -1,0 +1,3 @@
+{
+  "connectionString": "mongodb://mongo:27017/tracker"
+}

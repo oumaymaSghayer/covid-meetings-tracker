@@ -1,0 +1,83 @@
+.App {
+}
+.tool-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+.name-container {
+  margin: 1rem 0rem;
+}
+.warn-text {
+  color: red;
+}
+
+.add-user-container {
+  margin: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.add-user-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-submit {
+  margin: 2rem !important;
+  width: 200px;
+}
+.add-meeting-component {
+  min-height: 90vh;
+  display: block;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.location-container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.leaflet-container {
+  height: 200px;
+  width: 400px;
+}
+.meeting-list-item {
+  width: 250px;
+  height: 300px;
+  margin: 1rem;
+}
+.map-container {
+  height: 200px;
+}
+.filter-container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.meetings-container {
+  min-height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.meeting-list-item-text {
+  padding: 1rem 0.5rem;
+}
+.search-input {
+  width: 60%;
+}
