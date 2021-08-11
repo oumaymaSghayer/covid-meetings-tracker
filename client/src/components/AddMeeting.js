@@ -41,6 +41,7 @@ function AddMeeting() {
       person: { name },
     };
     dispatch(addMeeting(meeting));
+    history.push("/meetings");
   };
   return (
     <div className="add-meeting-component">
