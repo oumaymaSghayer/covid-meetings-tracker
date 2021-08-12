@@ -31,8 +31,8 @@ services:
     build:
       context: ./client
       dockerfile: Dockerfile
-    image: client
-    container_name: client
+    image: client1
+    container_name: client1
     command: yarn start
     volumes:
       - ./client/:/usr/app
